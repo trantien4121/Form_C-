@@ -1,0 +1,12 @@
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.csproj.AssemblyReference.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.csproj.SuggestedBindingRedirects.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22_09_2022.Form1.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22_09_2022.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.csproj.GenerateResource.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.csproj.CoreCompileInputs.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\bin\Debug\form22-09-2022.exe.config
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\bin\Debug\form22-09-2022.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\bin\Debug\form22-09-2022.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22-09-2022.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\form22-09-2022\obj\Debug\form22_09_2022.frmGiangVien.resources

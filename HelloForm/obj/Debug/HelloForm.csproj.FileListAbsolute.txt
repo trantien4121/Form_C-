@@ -1,0 +1,11 @@
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.csproj.AssemblyReference.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.csproj.SuggestedBindingRedirects.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.csproj.GenerateResource.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.csproj.CoreCompileInputs.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\bin\Debug\HelloForm.exe.config
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\bin\Debug\HelloForm.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\bin\Debug\HelloForm.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\HelloForm\obj\Debug\HelloForm.form1.resources

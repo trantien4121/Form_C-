@@ -1,0 +1,16 @@
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\EntityFramework.dll
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\EntityFramework.SqlServer.dll
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\EntityFramework.xml
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\bin\Debug\EntityFramework.SqlServer.xml
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.AssemblyReference.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.SuggestedBindingRedirects.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.Form1.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CopyComplete
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
