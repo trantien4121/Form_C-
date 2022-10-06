@@ -96,5 +96,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\add_24.png" />
+    <Content Include="Icons\delete_24.png" />
+    <Content Include="Icons\edit_24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

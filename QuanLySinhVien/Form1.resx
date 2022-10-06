@@ -144,4 +144,56 @@
   <metadata name="lopHocViewModelBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>836, 17</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>731, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALMSURBVEhLpZNbc9JAGIbzJ7zQHsaLtiShENI6lAaBtpxL
+        OPR88DjWQ7UHf4t3OjpeeOl9rf9C66jU8dKRUEoDYZPgDDDrLkkR2m1K6zvzTDbf9+2zS2agrKKLo/3V
+        NL/1J+n6qKf5fT09ohrw+7hWTfKbevpGnznefbQE16OnXK80katXUzy0QhP5Bnq+r6a56+Z26yBpRk3w
+        QE/y8CJoCb6ipfiUqSFHS7ieq9Ouhi664GXAezXRtW3qOoNvDuJoIOFCt7k8huPEL9Fijl51mgMIdAsO
+        akt+qK+JzXU3aMsBqM6M/avFOPy5rpl6igIx51sQ59DpBupqENaze1Bbn2vVzkK9GzVm78c7ezHudVOu
+        h0b7lYijjgq42EK9Y25cn++ot2M1g534y1BK1LldiTohCXA70hSoT+Yu1DsGRB0blBIe3lUiTnQiGXAL
+        ib5/hgCJOmt7HTUSpYhzh1KCjp9K2AGtACshWP+GDnk8C8Fq2JCjNWm2nVLIvk+VQw6AgOdRWTHE9ewX
+        CB7NEmcIAKoUHAYIeB7KcgjW8AGIysMZ4swpJocVSp60/5DRixVlU64gcfuaNNvBFJvFB+wi4FmUl4Kw
+        hr6/spaxrBEJ2HeoYoDdPJqwQxKlRUNUfpAh976Sey0C9qfUkc/eV/Cz9eIEC9uRF6ea8hISnOwdIy9M
+        okM+EWcKE3StGEB/NJxDP/um6EcNEznjN+T30q3aWcjzxkXkhdCJHv2yKccpegZ7Dnxs5dDHQkwxIUB5
+        Odpcd8OR6IXF8EjrHbmUgo++auqNFLxMPO9l6gUfA/+HvI9pHHptSVPbmcI4sy15mcaBl4GXoblXYLdM
+        HTl5wZaSPHTlQKDhRZAEWpHGadHUWCd3c+BKXqBf5DxDNfSEVuQEuiEJtnenvnk3+eUe6JXcQxuSx/ZB
+        ctuyv92DAIPXqLaTGxt6hmfMcUIo6i+/ZIGNiMuxcwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHnSURBVEhL3VS/L0RBEH4SEUQjUdD7UWpU4g8QWleft+/e
+        O3eiUAmFK53K/4BeKHQkCCUqolKdQi5RnojM+mZv9m7v3v3CNXzJ5O3OfvPNzuy+9f4EgoAWwoAKKUUb
+        4uoeooDmIV4KA63LRtuy9HuEihYDn95ZGFWcQvyTx6hkSyhVJBK6Dwu7CHip7qbWIHIl9BpxCO+xLxXQ
+        vsxLnqd7DNECC3kr1NQUXTKXex4TV7SGMYml2VcDOAsmIKRZcTUFuK/NxDFeMaR62F3KtCUgZA41mdT9
+        GKcr4ilaFUocP0mA71tFvNnOLb6TIFB0bfk4iw8kiPe8Hm6C9SUaQNAmDvWA+5vL6V5DcpDJ6GE2bpO4
+        WsMmiCI9AuE7Ozem6Az+QaE2BFflXuMYrBju8j1/EfDIh4ZKzO2C/5yT4JaNwXcY+vQE3xFEx914I9YI
+        lmDMp4dsUo+yP71ME06SCwg+u1z4immfpu3ciDVCJcgRt3CTsEH0JlI0k/LpROZFuyYhcVhCvbhFXSWm
+        Xfy8oKJjG8sm9DjaEgCcyWSlEjwb2aweMm8YzqIrCRhK0ZR9EN1KupaA0aiSDhKUAyJfz4mrJdxKEHsr
+        34IsxwFC++e6jeGv3xG5OKSPSFK9jp2bicmzhsj9G3jeFxZnZsVXcdKlAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVEhL3ZVbDsIgEEX75aKMLqMLKA+3om5L41LqMgYZ
+        uQQbHpaKH+1JJg30dm4oDNNth743OyXoKgd6ammMDynpDkmEFPT41GpJo31eOBckAX4xFSME3SCJYPPk
+        NzYXJAG4G61pj6lqToM5OAMaMRXw7hguJptn/QbvDStsKMOnpnSqmDl5srRaZZa/GMTFFOLb75pFoZiK
+        RbgInxjD9vxk0OoIZvO0Wn42zxYM3HXNVy6mqlGKjs4gfV0nG05p43NFaDvjGZIAtzn70pqg8fio6miF
+        lrlSuu4Fmp9RKkatVGYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>64</value>
+  </metadata>
 </root>
