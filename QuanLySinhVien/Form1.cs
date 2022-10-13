@@ -1,4 +1,5 @@
 ﻿using QuanLySinhVien.Model;
+using QuanLySinhVien.Services;
 using QuanLySinhVien.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -36,7 +37,7 @@ namespace QuanLySinhVien
         }
         void NapDsLopHoc()
         {
-            var ls = LopHocViewModel.Getlist();
+            var ls = LopHocService.Getlist();
             cbblophoc.DataSource = ls;
             cbblophoc.DisplayMember = "TenLop";
         
@@ -48,7 +49,7 @@ namespace QuanLySinhVien
             
             if(selectedLopHoc != null)
             {
-                var ls = SinhVienViewModel.Getlist(selectedLopHoc.ID);
+                var ls = SinhVienService.Getlist(selectedLopHoc.ID);
                 bdsSinhVien.DataSource = ls;
                 gridsinhvien.DataSource = bdsSinhVien;
             }
@@ -77,15 +78,11 @@ namespace QuanLySinhVien
         {
             if (selectedSinhVien != null)
             {
-                if (SinhVienViewModel.DeleteSinhVien(selectedSinhVien.MaSinhVien) == KetQua.ThanhCong)
+                var rs = MessageBox.Show("Bạn có chắc là muốn xóa?", "Chú ý", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if(rs == DialogResult.OK)
                 {
-                    MessageBox.Show("xoa ok!");
+                    SinhVienService.DeleteSinhVien(selectedSinhVien);
                     NapDsSinhVien();
-
-                }
-                else
-                {
-                    MessageBox.Show("Loi!");
                 }
             }
         }

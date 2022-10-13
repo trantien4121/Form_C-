@@ -1,4 +1,5 @@
 ﻿using QuanLySinhVien.Model;
+using QuanLySinhVien.Services;
 using QuanLySinhVien.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -48,7 +49,7 @@ namespace QuanLySinhVien
         }
         void NapDSLopHoc()
         {
-            var ls = LopHocViewModel.Getlist();
+            var ls = LopHocService.Getlist();
             cbbLopHoc.DataSource = ls;
             cbbLopHoc.ValueMember = "ID";
             cbbLopHoc.DisplayMember = "TenLop";
@@ -68,7 +69,7 @@ namespace QuanLySinhVien
                     IDLopHoc = selectedLopHoc.ID,
                     GioiTinh = (rbNam.Checked ? 0 : (rbNu.Checked ? 1 : 2))
                 };
-                if (SinhVienViewModel.Addsinhvien(sinhvien) == KetQua.ThanhCong)
+                if (SinhVienService.Addsinhvien(sinhvien) == KetQua.ThanhCong)
                 {
                     DialogResult = DialogResult.OK; //Bao ket qua
                 }
@@ -88,7 +89,7 @@ namespace QuanLySinhVien
                 sinhVien.MaSinhVien = txtMaSinhVien.Text;
                 sinhVien.IDLopHoc = selectedLopHoc.ID;
                 
-                SinhVienViewModel.UpdateSinhVien(sinhVien);
+                SinhVienService.UpdateSinhVien(sinhVien);
                 DialogResult = DialogResult.OK;
             }
                    

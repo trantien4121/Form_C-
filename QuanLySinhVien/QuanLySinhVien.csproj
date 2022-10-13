@@ -72,6 +72,8 @@
     <Compile Include="Model\SinhVien.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\LopHocService.cs" />
+    <Compile Include="Services\SinhVienService.cs" />
     <Compile Include="ViewModel\LopHocViewModel.cs" />
     <Compile Include="ViewModel\SinhVienViewModel.cs" />
     <EmbeddedResource Include="Form1.resx">

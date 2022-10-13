@@ -13,18 +13,6 @@ namespace QuanLySinhVien.ViewModel
         public int ID { get; set; }
         public string TenLop { get; set; }
 
-        //Lay toan bo lop hoc
-        public static List<LopHocViewModel> Getlist()
-        {
-            var db = new AppDBContext();
-            var rs = db.LopHocs.Select(e => new LopHocViewModel
-            {
-                ID = e.ID,
-                TenLop = e.TenLop,
-            }).ToList();
-
-            return rs;
-
-        }
+        
     }
 }
