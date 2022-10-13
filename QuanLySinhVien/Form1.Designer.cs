@@ -33,33 +33,29 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbblophoc = new System.Windows.Forms.ComboBox();
             this.gridsinhvien = new System.Windows.Forms.DataGridView();
-            this.MaSinhVien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HoDem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QueQuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDLopHocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sinhVienViewModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sinhVienViewModelBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.lopHocViewModelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.btnXoa = new System.Windows.Forms.ToolStripButton();
+            this.btnSua = new System.Windows.Forms.ToolStripButton();
+            this.btnThem = new System.Windows.Forms.ToolStripButton();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDLopHocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bdsSinhVien = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gridsinhvien)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienViewModelBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienViewModelBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lopHocViewModelBindingSource)).BeginInit();
             this.panel1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsSinhVien)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,83 +78,27 @@
             // 
             // gridsinhvien
             // 
+            this.gridsinhvien.AllowUserToAddRows = false;
+            this.gridsinhvien.AllowUserToDeleteRows = false;
             this.gridsinhvien.AutoGenerateColumns = false;
             this.gridsinhvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridsinhvien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iDDataGridViewTextBoxColumn,
-            this.MaSinhVien,
-            this.HoDem,
-            this.Ten,
-            this.NgaySinh,
-            this.GioiTinh,
-            this.QueQuan,
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
             this.iDLopHocDataGridViewTextBoxColumn});
-            this.gridsinhvien.DataSource = this.sinhVienViewModelBindingSource;
+            this.gridsinhvien.DataSource = this.bdsSinhVien;
             this.gridsinhvien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridsinhvien.Location = new System.Drawing.Point(0, 25);
             this.gridsinhvien.Name = "gridsinhvien";
+            this.gridsinhvien.ReadOnly = true;
+            this.gridsinhvien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridsinhvien.Size = new System.Drawing.Size(771, 299);
             this.gridsinhvien.TabIndex = 2;
-            // 
-            // MaSinhVien
-            // 
-            this.MaSinhVien.DataPropertyName = "MaSinhVien";
-            this.MaSinhVien.HeaderText = "MaSinhVien";
-            this.MaSinhVien.Name = "MaSinhVien";
-            // 
-            // HoDem
-            // 
-            this.HoDem.DataPropertyName = "HoDem";
-            this.HoDem.HeaderText = "HoDem";
-            this.HoDem.Name = "HoDem";
-            // 
-            // Ten
-            // 
-            this.Ten.DataPropertyName = "Ten";
-            this.Ten.HeaderText = "Ten";
-            this.Ten.Name = "Ten";
-            // 
-            // NgaySinh
-            // 
-            this.NgaySinh.DataPropertyName = "NgaySinh";
-            this.NgaySinh.HeaderText = "NgaySinh";
-            this.NgaySinh.Name = "NgaySinh";
-            // 
-            // GioiTinh
-            // 
-            this.GioiTinh.DataPropertyName = "GioiTinh";
-            this.GioiTinh.HeaderText = "GioiTinh";
-            this.GioiTinh.Name = "GioiTinh";
-            // 
-            // QueQuan
-            // 
-            this.QueQuan.DataPropertyName = "QueQuan";
-            this.QueQuan.HeaderText = "QueQuan";
-            this.QueQuan.Name = "QueQuan";
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            // 
-            // iDLopHocDataGridViewTextBoxColumn
-            // 
-            this.iDLopHocDataGridViewTextBoxColumn.DataPropertyName = "IDLopHoc";
-            this.iDLopHocDataGridViewTextBoxColumn.HeaderText = "IDLopHoc";
-            this.iDLopHocDataGridViewTextBoxColumn.Name = "iDLopHocDataGridViewTextBoxColumn";
-            // 
-            // sinhVienViewModelBindingSource
-            // 
-            this.sinhVienViewModelBindingSource.DataSource = typeof(QuanLySinhVien.ViewModel.SinhVienViewModel);
-            // 
-            // sinhVienViewModelBindingSource1
-            // 
-            this.sinhVienViewModelBindingSource1.DataSource = typeof(QuanLySinhVien.ViewModel.SinhVienViewModel);
-            // 
-            // lopHocViewModelBindingSource
-            // 
-            this.lopHocViewModelBindingSource.DataSource = typeof(QuanLySinhVien.ViewModel.LopHocViewModel);
             // 
             // panel1
             // 
@@ -172,52 +112,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(771, 346);
             this.panel1.TabIndex = 3;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.toolStripButton3,
-            this.toolStripButton2,
-            this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(771, 25);
-            this.toolStrip1.TabIndex = 3;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(112, 22);
-            this.toolStripLabel1.Text = "Danh sách sinh viên";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(57, 22);
-            this.toolStripButton1.Text = "Thêm";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(46, 22);
-            this.toolStripButton2.Text = "Sửa";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(47, 22);
-            this.toolStripButton3.Text = "Xóa";
             // 
             // statusStrip1
             // 
@@ -242,6 +136,115 @@
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(13, 17);
             this.toolStripStatusLabel2.Text = "0";
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel1,
+            this.btnXoa,
+            this.btnSua,
+            this.btnThem});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(771, 25);
+            this.toolStrip1.TabIndex = 3;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(112, 22);
+            this.toolStripLabel1.Text = "Danh sách sinh viên";
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
+            this.btnXoa.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(47, 22);
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
+            this.btnSua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(46, 22);
+            this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
+            this.btnThem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(57, 22);
+            this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaSinhVien";
+            this.dataGridViewTextBoxColumn1.HeaderText = "MaSinhVien";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "HoDem";
+            this.dataGridViewTextBoxColumn2.HeaderText = "HoDem";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Ten";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Ten";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "NgaySinh";
+            this.dataGridViewTextBoxColumn4.HeaderText = "NgaySinh";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "GioiTinh";
+            this.dataGridViewTextBoxColumn5.HeaderText = "GioiTinh";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "QueQuan";
+            this.dataGridViewTextBoxColumn6.HeaderText = "QueQuan";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // iDLopHocDataGridViewTextBoxColumn
+            // 
+            this.iDLopHocDataGridViewTextBoxColumn.DataPropertyName = "IDLopHoc";
+            this.iDLopHocDataGridViewTextBoxColumn.HeaderText = "IDLopHoc";
+            this.iDLopHocDataGridViewTextBoxColumn.Name = "iDLopHocDataGridViewTextBoxColumn";
+            this.iDLopHocDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // bdsSinhVien
+            // 
+            this.bdsSinhVien.DataSource = typeof(QuanLySinhVien.ViewModel.SinhVienViewModel);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,17 +254,16 @@
             this.Controls.Add(this.cbblophoc);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.gridsinhvien)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienViewModelBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienViewModelBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lopHocViewModelBindingSource)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsSinhVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,32 +274,30 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbblophoc;
         private System.Windows.Forms.DataGridView gridsinhvien;
-        private System.Windows.Forms.BindingSource lopHocViewModelBindingSource;
-        private System.Windows.Forms.BindingSource sinhVienViewModelBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn maSinhVienDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn hoDemDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ngaySinhDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn gioiTinhDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn queQuanDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource sinhVienViewModelBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaSinhVien;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HoDem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ten;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn QueQuan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDLopHocDataGridViewTextBoxColumn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton btnXoa;
+        private System.Windows.Forms.ToolStripButton btnSua;
+        private System.Windows.Forms.ToolStripButton btnThem;
+        private System.Windows.Forms.BindingSource bdsSinhVien;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDLopHocDataGridViewTextBoxColumn;
     }
 }
 

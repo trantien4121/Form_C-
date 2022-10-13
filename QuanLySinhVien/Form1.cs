@@ -1,4 +1,5 @@
-﻿using QuanLySinhVien.ViewModel;
+﻿using QuanLySinhVien.Model;
+using QuanLySinhVien.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,13 +18,20 @@ namespace QuanLySinhVien
         {
             InitializeComponent();
             NapDsLopHoc();
-            NapDsSinhVien();
+            //NapDsSinhVien();
         }
         public LopHocViewModel selectedLopHoc
         {
             get
             {
                 return cbblophoc.SelectedItem as LopHocViewModel;
+            }
+        }
+        public SinhVienViewModel selectedSinhVien
+        {
+            get
+            {
+                return bdsSinhVien.Current as SinhVienViewModel;
             }
         }
         void NapDsLopHoc()
@@ -41,7 +49,8 @@ namespace QuanLySinhVien
             if(selectedLopHoc != null)
             {
                 var ls = SinhVienViewModel.Getlist(selectedLopHoc.ID);
-                gridsinhvien.DataSource = ls;
+                bdsSinhVien.DataSource = ls;
+                gridsinhvien.DataSource = bdsSinhVien;
             }
 
         }
@@ -49,6 +58,48 @@ namespace QuanLySinhVien
         private void cbblophoc_SelectedIndexChanged(object sender, EventArgs e)
         {
             NapDsSinhVien();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            //Kiem tra ma sinh vien co trung hay khong
+            //MSV, Ho Dem, Ten khong duoc de trong
+
+            var f = new frmSinhVien();
+            var rs =  f.ShowDialog();
+            if(rs == DialogResult.OK)
+            {
+                NapDsSinhVien();
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)   //Sai
+        {
+            if (selectedSinhVien != null)
+            {
+                if (SinhVienViewModel.DeleteSinhVien(selectedSinhVien.MaSinhVien) == KetQua.ThanhCong)
+                {
+                    MessageBox.Show("xoa ok!");
+                    NapDsSinhVien();
+
+                }
+                else
+                {
+                    MessageBox.Show("Loi!");
+                }
+            }
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            if (selectedSinhVien != null)
+            {
+                var f = new frmSinhVien(selectedSinhVien);
+                if(f.ShowDialog() == DialogResult.OK)
+                {
+                    NapDsSinhVien();
+                }
+            }
         }
     }
 }

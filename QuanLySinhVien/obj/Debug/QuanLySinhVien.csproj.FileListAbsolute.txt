@@ -14,3 +14,4 @@ E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csp
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CopyComplete
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmSinhVien.resources
