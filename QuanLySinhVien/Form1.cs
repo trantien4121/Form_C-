@@ -98,5 +98,41 @@ namespace QuanLySinhVien
                 }
             }
         }
+
+        private void btnThemLop_Click(object sender, EventArgs e)
+        {
+
+            var fl= new frmLopHoc();
+            var rs = fl.ShowDialog();
+            if (rs == DialogResult.OK)
+            {
+                NapDsLopHoc();
+            }
+        }
+
+        private void btnSuaLop_Click(object sender, EventArgs e)
+        {
+            if (selectedLopHoc != null)
+            {
+                var fl = new frmLopHoc(selectedLopHoc); ;
+                if (fl.ShowDialog() == DialogResult.OK)
+                {
+                    NapDsLopHoc();
+                }
+            }
+        }
+
+        private void btnXoaLop_Click(object sender, EventArgs e)
+        {
+            if (selectedLopHoc != null)
+            {
+                var rs = MessageBox.Show("Bạn có chắc là muốn xóa lóp học này?", "Chú ý", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (rs == DialogResult.OK)
+                {
+                    LopHocService.DeleteLopHoc(selectedLopHoc);
+                    NapDsLopHoc();
+                }
+            }
+        }
     }
 }

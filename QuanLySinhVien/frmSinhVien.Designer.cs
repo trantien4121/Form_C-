@@ -235,7 +235,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmSinhVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "frmSinhVien";
+            this.Text = "frmLopHoc";
             this.ResumeLayout(false);
             this.PerformLayout();
 

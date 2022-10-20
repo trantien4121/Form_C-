@@ -15,3 +15,4 @@ E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.csp
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
 E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmSinhVien.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmLopHoc.resources

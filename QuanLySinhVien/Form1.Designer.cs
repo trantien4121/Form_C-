@@ -42,6 +42,9 @@
             this.btnXoa = new System.Windows.Forms.ToolStripButton();
             this.btnSua = new System.Windows.Forms.ToolStripButton();
             this.btnThem = new System.Windows.Forms.ToolStripButton();
+            this.btnThemLop = new System.Windows.Forms.Button();
+            this.btnSuaLop = new System.Windows.Forms.Button();
+            this.btnXoaLop = new System.Windows.Forms.Button();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -185,6 +188,36 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
+            // btnThemLop
+            // 
+            this.btnThemLop.Location = new System.Drawing.Point(283, 39);
+            this.btnThemLop.Name = "btnThemLop";
+            this.btnThemLop.Size = new System.Drawing.Size(75, 23);
+            this.btnThemLop.TabIndex = 4;
+            this.btnThemLop.Text = "Thêm Lớp";
+            this.btnThemLop.UseVisualStyleBackColor = true;
+            this.btnThemLop.Click += new System.EventHandler(this.btnThemLop_Click);
+            // 
+            // btnSuaLop
+            // 
+            this.btnSuaLop.Location = new System.Drawing.Point(373, 39);
+            this.btnSuaLop.Name = "btnSuaLop";
+            this.btnSuaLop.Size = new System.Drawing.Size(75, 23);
+            this.btnSuaLop.TabIndex = 4;
+            this.btnSuaLop.Text = "Sửa Lớp";
+            this.btnSuaLop.UseVisualStyleBackColor = true;
+            this.btnSuaLop.Click += new System.EventHandler(this.btnSuaLop_Click);
+            // 
+            // btnXoaLop
+            // 
+            this.btnXoaLop.Location = new System.Drawing.Point(464, 39);
+            this.btnXoaLop.Name = "btnXoaLop";
+            this.btnXoaLop.Size = new System.Drawing.Size(75, 23);
+            this.btnXoaLop.TabIndex = 4;
+            this.btnXoaLop.Text = "Xóa Lớp";
+            this.btnXoaLop.UseVisualStyleBackColor = true;
+            this.btnXoaLop.Click += new System.EventHandler(this.btnXoaLop_Click);
+            // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
@@ -250,6 +283,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 453);
+            this.Controls.Add(this.btnXoaLop);
+            this.Controls.Add(this.btnSuaLop);
+            this.Controls.Add(this.btnThemLop);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.cbblophoc);
             this.Controls.Add(this.label1);
@@ -298,6 +334,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDLopHocDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btnThemLop;
+        private System.Windows.Forms.Button btnSuaLop;
+        private System.Windows.Forms.Button btnXoaLop;
     }
 }
 
