@@ -1,5 +1,6 @@
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using TreeView = System.Windows.Forms.TreeView;
@@ -22,6 +23,10 @@ namespace ShowAnhtrongCay
                 }
             }
         }
+
+        public int ThoiGian { get; set; }
+        public int ChoPhepLap { get; set; }
+        public int ChayRanDom { get; set; }
 
         public String selectedOdia{
             get { return cbbODia.SelectedItem as String;}
@@ -184,9 +189,25 @@ namespace ShowAnhtrongCay
             f.ShowDialog();
         }
 
-        private void S(object sender, EventArgs e)
+        private void btnSelection_Click(object sender, EventArgs e)
         {
+            var f = new frmCaiDat();
+            var rs = f.ShowDialog();
+            if (rs == DialogResult.OK)
+            {
+                //int soGiay = f.SoGiay;
+                MessageBox.Show($"{f.SoGiay}");
+                ThoiGian = f.SoGiay;
+                ChoPhepLap = f.choPhepLap;
+                ChayRanDom = f.hienThiNgauNhien;
+            }      
+        }
 
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            frmShowSlide fr = new frmShowSlide(lsvListFile, ThoiGian, ChoPhepLap, ChayRanDom);
+            //MessageBox.Show($"{ThoiGian}");
+            fr.ShowDialog();
         }
     }
 }

@@ -4,6 +4,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmCaiDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmShowSlide.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="imageDesForm.cs">
       <SubType>Form</SubType>
     </Compile>

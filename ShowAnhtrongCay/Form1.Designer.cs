@@ -106,6 +106,7 @@
             this.btnShow.TabIndex = 5;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnSelection
             // 
@@ -115,6 +116,7 @@
             this.btnSelection.TabIndex = 6;
             this.btnSelection.Text = "...";
             this.btnSelection.UseVisualStyleBackColor = true;
+            this.btnSelection.Click += new System.EventHandler(this.btnSelection_Click);
             // 
             // Form1
             // 
@@ -129,7 +131,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "ShowAnhTrongCay";
-            this.Load += new System.EventHandler(this.S);
             this.ResumeLayout(false);
             this.PerformLayout();
 

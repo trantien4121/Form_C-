@@ -17,3 +17,5 @@ E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\Sh
 E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\ref\ShowAnhtrongCay.dll
 E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\ShowAnhtrongCay.imageDesForm.resources
 E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\ShowAnhtrongCay.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\ShowAnhtrongCay.frmCaiDat.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\ShowAnhtrongCay\obj\Debug\net6.0-windows\ShowAnhtrongCay.frmShowSlide.resources
