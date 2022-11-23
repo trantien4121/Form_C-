@@ -1,0 +1,11 @@
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\bin\Debug\SIideShowAnh.exe.config
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\bin\Debug\SIideShowAnh.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\bin\Debug\SIideShowAnh.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.csproj.AssemblyReference.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.csproj.SuggestedBindingRedirects.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.Form1.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.csproj.GenerateResource.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.csproj.CoreCompileInputs.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\SIideShowAnh\obj\Debug\SIideShowAnh.pdb

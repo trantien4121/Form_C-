@@ -134,5 +134,10 @@ namespace QuanLySinhVien
                 }
             }
         }
+
+        private void gridsinhvien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

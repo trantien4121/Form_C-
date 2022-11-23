@@ -1,0 +1,12 @@
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\bin\Debug\ClockApp.exe.config
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\bin\Debug\ClockApp.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\bin\Debug\ClockApp.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.csproj.AssemblyReference.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.csproj.SuggestedBindingRedirects.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.Form1.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.Properties.Resources.resources
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.csproj.GenerateResource.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.csproj.CoreCompileInputs.cache
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.exe
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.pdb
+E:\trantien\.NET FRAMEWORK\HelloForm\ClockApp\obj\Debug\ClockApp.frmSetThoiGian.resources
